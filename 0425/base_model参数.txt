@@ -1,0 +1,5 @@
+100%|████████████████████████████████████████████████████████| 54/54 [13:03:08<00:00, 870.16s/trial, best loss: -0.2676]
+best params:  {'embedding_size': 64, 'kg_embedding_size': 64, 'train_batch_size': 8192, 'training_neg_sample_num': 5}
+best result:
+{'best_valid_score': 0.2676, 'valid_score_bigger': True, 'best_valid_result': OrderedDict([('recall@10', 0.5223), ('mrr@10', 0.2676), ('ndcg@10', 0.3276), ('hit@10', 0.5223), ('precision@10', 0.0522)]), 
+'test_result': OrderedDict([('recall@10', 0.5001), ('mrr@10', 0.255), ('ndcg@10', 0.3128), ('hit@10', 0.5001), ('precision@10', 0.05)])}
